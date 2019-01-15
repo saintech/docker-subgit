@@ -1,16 +1,8 @@
 ### SubGit in a docker.
 
-[![CircleCI Build Status](https://img.shields.io/circleci/project/pozgo/docker-subgit/master.svg)](https://circleci.com/gh/pozgo/docker-subgit)
-[![GitHub Open Issues](https://img.shields.io/github/issues/pozgo/docker-subgit.svg)](https://github.com/pozgo/docker-subgit/issues)
-[![GitHub Stars](https://img.shields.io/github/stars/pozgo/docker-subgit.svg)](https://github.com/pozgo/docker-subgit)
-[![GitHub Forks](https://img.shields.io/github/forks/pozgo/docker-subgit.svg)](https://github.com/pozgo/docker-subgit)  
-[![Stars on Docker Hub](https://img.shields.io/docker/stars/polinux/subgit.svg)](https://hub.docker.com/r/polinux/subgit)
-[![Pulls on Docker Hub](https://img.shields.io/docker/pulls/polinux/subgit.svg)](https://hub.docker.com/r/polinux/subgit)  
-[![](https://images.microbadger.com/badges/version/polinux/subgit.svg)](http://microbadger.com/images/polinux/subgit)
-[![](https://images.microbadger.com/badges/license/polinux/subgit.svg)](http://microbadger.com/images/polinux/subgit)
-[![](https://images.microbadger.com/badges/image/polinux/subgit.svg)](http://microbadger.com/images/polinux/subgit)
+[![Pulls on Docker Hub](https://img.shields.io/docker/pulls/saintech/subgit.svg)](https://hub.docker.com/r/saintech/subgit) [![](https://images.microbadger.com/badges/image/saintech/subgit.svg)](https://microbadger.com/images/saintech/subgit)
 
-[Docker Image](https://registry.hub.docker.com/u/polinux/subgit/) with SubGit. It's using tiny image provided by Alpine.  
+[Docker Image](https://registry.hub.docker.com/u/saintech/subgit/) with SubGit. It's using tiny image provided by Alpine.  
 
 [SubGit Website](https://subgit.com/)  
 
@@ -66,4 +58,5 @@ docker history --no-trunc=true polinux/subgit | tr -s ' ' | tail -n+2 | awk -F "
 
 ## Author
 
-Przemyslaw Ozgo (<linux@ozgo.info>)
+- Przemyslaw Ozgo (<linux@ozgo.info>)
+- [saintech](https://github.com/saintech)
